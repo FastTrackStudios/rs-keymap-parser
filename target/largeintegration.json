@@ -1,0 +1,144 @@
+[
+  {
+    "Script": {
+      "termination_behavior": "Prompt",
+      "section": "Main",
+      "command_id": "RSd01307f7b0fd4a5acedb78c3ee0bc59c2d97b419",
+      "description": "Custom: souk21_sequences_Colors.lua",
+      "path": "Souk21_sequences/souk21_sequences_Colors.lua"
+    }
+  },
+  {
+    "Action": {
+      "action_flags": "",
+      "section": "Main",
+      "command_id": "b65bee49aaac48d48be3d1d06d76723d",
+      "description": "Custom: LTAR - Move Time Selection Left",
+      "action_ids": [
+        "_RSb86841d9d1c11d0896df3a46b434c27065eeb5e0",
+        "40031"
+      ]
+    }
+  },
+  {
+    "Script": {
+      "termination_behavior": "Prompt",
+      "section": "Main",
+      "command_id": "RSd399cbc324f992f40e4546b0e634b8bfc5847e14",
+      "description": "Custom: install-reaper-keys.lua",
+      "path": "reaper-keys/Scripts/install-reaper-keys.lua"
+    }
+  },
+  {
+    "Action": {
+      "action_flags": "CONSOLIDATE_UNDO",
+      "section": "Main",
+      "command_id": "0eac51ff99b7407687e8c2236fec146e",
+      "description": "Custom: Fast Edit Mode Toggle",
+      "action_ids": [
+        "_SWS_AWSPLITXFADELEFT",
+        "40753",
+        "41118",
+        "_RScfe0d1f0045b4dc00222596478e104f1cb18cfae"
+      ]
+    }
+  },
+  {
+    "Script": {
+      "termination_behavior": "TerminateExisting",
+      "section": "Main",
+      "command_id": "RSb35b707915b6970bd4d4559e3cb2f4af7b029675",
+      "description": "Custom: MK Slicer (80icio MOD).lua",
+      "path": "ReaTeam Scripts/Items Editing/MK Slicer (80icio MOD).lua"
+    }
+  },
+  {
+    "Script": {
+      "termination_behavior": "AlwaysNewInstance",
+      "section": "Main",
+      "command_id": "RSa94fb568e65ccb69cb3b08fd3319bc287deea59a",
+      "description": "Custom: BuyOne_Cursor toggleable toolbar at top of main window.lua",
+      "path": "ReaTeam Scripts/Various/BuyOne_Cursor toggleable docked toolbars/BuyOne_Cursor toggleable toolbar at top of main window.lua"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "",
+      "key_code": "Key7",
+      "command_id": "0",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SHIFT",
+      "key_code": "F7",
+      "command_id": "0",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SHIFT",
+      "key_code": "F9",
+      "command_id": "0",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SHIFT | SUPER",
+      "key_code": "Tab",
+      "command_id": "0",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SHIFT",
+      "key_code": "Key4",
+      "command_id": "0",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "CONTROL",
+      "key_code": "F",
+      "command_id": "8",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "ALT",
+      "key_code": "S",
+      "command_id": "815",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SHIFT | CONTROL | ALT",
+      "key_code": "S",
+      "command_id": "815",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SUPER",
+      "key_code": "N",
+      "command_id": "40023",
+      "section": "Main"
+    }
+  },
+  {
+    "Key": {
+      "modifiers": "SUPER",
+      "key_code": "G",
+      "command_id": "40032",
+      "section": "Main"
+    }
+  }
+]

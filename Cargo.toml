@@ -1,0 +1,16 @@
+[package]
+name = "rs-keymap-parser"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+unused = { level = "allow", priority = -1 }
+
+[dependencies]
+bitflags = { version = "2.0.0", features = ["serde"] }
+nom.workspace = true
+num_enum.workspace = true
+regex.workspace = true
+serde.workspace = true
+serde_json.workspace = true

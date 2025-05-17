@@ -1,0 +1,16 @@
+SCR 4 0 RSd01307f7b0fd4a5acedb78c3ee0bc59c2d97b419 "Custom: souk21_sequences_Colors.lua" Souk21_sequences/souk21_sequences_Colors.lua
+ACT 0 0 "b65bee49aaac48d48be3d1d06d76723d" "Custom: LTAR - Move Time Selection Left" _RSb86841d9d1c11d0896df3a46b434c27065eeb5e0 40031
+SCR 4 0 RSd399cbc324f992f40e4546b0e634b8bfc5847e14 "Custom: install-reaper-keys.lua" reaper-keys/Scripts/install-reaper-keys.lua
+ACT 1 0 "0eac51ff99b7407687e8c2236fec146e" "Custom: Fast Edit Mode Toggle" _SWS_AWSPLITXFADELEFT 40753 41118 _RScfe0d1f0045b4dc00222596478e104f1cb18cfae
+SCR 260 0 RSb35b707915b6970bd4d4559e3cb2f4af7b029675 "Custom: MK Slicer (80icio MOD).lua" "ReaTeam Scripts/Items Editing/MK Slicer (80icio MOD).lua"
+SCR 516 0 RSa94fb568e65ccb69cb3b08fd3319bc287deea59a "Custom: BuyOne_Cursor toggleable toolbar at top of main window.lua" "ReaTeam Scripts/Various/BuyOne_Cursor toggleable docked toolbars/BuyOne_Cursor toggleable toolbar at top of main window.lua"
+KEY 1 55 0 0		 # Main : 7 : DISABLED DEFAULT
+KEY 5 118 0 0		 # Main : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 0		 # Main : Shift+F9 : DISABLED DEFAULT
+KEY 13 9 0 0		 # Main : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 52 0 0		 # Main : Shift+4 : DISABLED DEFAULT
+KEY 33 70 8 0		 # Main : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 17 83 815 0		 # Main : Opt+S : OVERRIDE DEFAULT : Track: Toggle solo for last touched track
+KEY 53 83 815 0		 # Main : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 9 78 40023 0		 # Main : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 0		 # Main : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
