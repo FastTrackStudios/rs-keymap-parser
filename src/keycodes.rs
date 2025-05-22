@@ -10,7 +10,7 @@ use std::convert::TryFrom;
 #[derive(
     Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, IntoPrimitive, TryFromPrimitive,
 )]
-#[repr(u8)]
+#[repr(u16)]
 pub enum KeyCode {
     LButton = 0x01,
     RButton = 0x02,
@@ -188,12 +188,12 @@ pub enum KeyCode {
 
 impl KeyCode {
     /// Try convert from the raw u8 in a Reaper file.
-    pub fn from_u8(n: u8) -> Option<Self> {
+    pub fn from_u16(n: u16) -> Option<Self> {
         Self::try_from(n).ok()
     }
 
     /// Convert back into the u8 Reaper expects.
-    pub fn as_u8(self) -> u8 {
+    pub fn as_u8(self) -> u16 {
         self.into()
     }
 }
@@ -210,7 +210,7 @@ mod tests {
 
     #[test]
     fn test_u8_to_keycode() {
-        KeyCode::from_u8(87);
+        KeyCode::from_u16(87);
         assert_eq!(KeyCode::W.as_u8(), 87);
     }
 }

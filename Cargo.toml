@@ -9,6 +9,9 @@ unused = { level = "allow", priority = -1 }
 
 [dependencies]
 bitflags = { version = "2.0.0", features = ["serde"] }
+camino.workspace = true
+reaper-high.workspace = true
+dirs.workspace = true
 nom.workspace = true
 num_enum.workspace = true
 regex.workspace = true

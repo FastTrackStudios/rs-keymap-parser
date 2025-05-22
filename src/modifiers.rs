@@ -112,7 +112,6 @@ mod tests {
         }
     }
 
-    //TODO! 255 is a special modifier case that doesn't exist yet
     #[test]
     fn test_case_255() {
         // 255 → bits = 254 (0b1111_1110), no exact match => None

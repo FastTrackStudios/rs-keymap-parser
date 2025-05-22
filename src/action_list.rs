@@ -10,6 +10,19 @@ use std::io::{self, BufRead, BufReader, Write};
 use std::num::ParseIntError;
 use std::path::Path;
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+pub struct ReaperActionInput {
+    pub key: KeyCode,
+    pub modifiers: Modifiers,
+}
+
+pub fn lookup_command_id(list: &ReaperActionList, input: &ReaperActionInput) -> Option<String> {
+    list.keys()
+        .iter()
+        .find(|rk| rk.modifiers == input.modifiers && rk.key_code == input.key)
+        .map(|rk| rk.command_id.clone())
+}
+
 /// Errors that can occur while parsing keymap entries.
 #[derive(Debug)]
 pub enum ParseError {
@@ -24,7 +37,7 @@ pub enum ParseError {
         err: String,
     },
     InvalidModifierCode(u8),
-    InvalidKeyCode(u8),
+    InvalidKeyCode(u16),
     InvalidSectionCode(u32),
     InvalidTermination(u32),
     InvalidTag(String),
@@ -214,13 +227,13 @@ impl ReaperEntry {
                     field: "key_code",
                 })?;
                 let code = code_str
-                    .parse::<u8>()
+                    .parse::<u16>()
                     .map_err(|e| ParseError::InvalidNumber {
                         tag: "KEY",
                         field: "key_code",
                         err: e.to_string(),
                     })?;
-                let key_code = KeyCode::from_u8(code).ok_or(ParseError::InvalidKeyCode(code))?;
+                let key_code = KeyCode::from_u16(code).ok_or(ParseError::InvalidKeyCode(code))?;
                 let cmd = parts.next().ok_or(ParseError::MissingField {
                     tag: "KEY",
                     field: "command_id",
@@ -367,6 +380,8 @@ impl ReaperEntry {
     }
 }
 
+fn do_nothing() {}
+
 /// Collection of Reaper entries with I/O methods.
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub struct ReaperActionList(pub Vec<ReaperEntry>);
@@ -381,7 +396,7 @@ impl ReaperActionList {
             let text = line?;
             match ReaperEntry::from_line(&text) {
                 Ok(entry) => entries.push(entry),
-                Err(e) => eprintln!("Line {} skipped: {}", i + 1, e),
+                Err(e) => do_nothing(),
             }
         }
         Ok(ReaperActionList(entries))
@@ -394,5 +409,75 @@ impl ReaperActionList {
             writeln!(file, "{}", entry.to_line())?;
         }
         Ok(())
+    }
+
+    pub fn keys(&self) -> Vec<KeyEntry> {
+        self.0
+            .iter()
+            .filter_map(|e| {
+                if let ReaperEntry::Key(k) = e {
+                    Some(k.clone())
+                } else {
+                    None
+                }
+            })
+            .collect()
+    }
+}
+
+pub fn get_action_list_from_current_config() -> ReaperActionList {
+    let mut list = ReaperActionList(Vec::new());
+    list
+}
+
+pub fn make_test_action_list() -> ReaperActionList {
+    let mut list = ReaperActionList(Vec::new());
+
+    // 1) push a no-modifier entry for “A”
+    list.0.push(ReaperEntry::Key(KeyEntry {
+        modifiers: Modifiers::empty(),
+        key_code: KeyCode::A,
+        command_id: "40044".to_string(),
+        section: ReaperActionSection::Main,
+    }));
+
+    list.0.push(ReaperEntry::Key(KeyEntry {
+        modifiers: Modifiers::CONTROL,
+        key_code: KeyCode::A,
+        command_id: "shifted command id".to_string(),
+        section: ReaperActionSection::Main,
+    }));
+
+    // 2) push a Ctrl+B entry
+    list.0.push(ReaperEntry::Key(KeyEntry {
+        modifiers: Modifiers::CONTROL,
+        key_code: KeyCode::B,
+        command_id: "SWS_ACTION".to_string(),
+        section: ReaperActionSection::Main,
+    }));
+
+    list
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn finds_existing_command() {
+        let list = make_test_action_list();
+
+        // lookup the existing Ctrl+B
+        let input = ReaperActionInput {
+            modifiers: Modifiers::CONTROL,
+            key: KeyCode::B,
+        };
+        assert_eq!(lookup_command_id(&list, &input), Some("10004".to_string()));
+
+        // lookup a missing combo (Shift+C)
+        let missing = ReaperActionInput {
+            modifiers: Modifiers::SHIFT,
+            key: KeyCode::C,
+        };
     }
 }
