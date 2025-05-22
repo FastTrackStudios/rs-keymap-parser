@@ -5,6 +5,8 @@ pub mod modifiers;
 
 pub mod keycodes;
 
+pub mod special_inputs;
+
 pub mod action_list;
 
 pub mod sections;

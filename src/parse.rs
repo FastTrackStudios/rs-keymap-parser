@@ -72,7 +72,7 @@ pub fn parse_line(line: &str) -> Option<KeyBinding> {
 /// Read a `.reaperkeymap` file and parse every valid line into a Vec<KeyBinding>
 pub fn parse_keymap_file<P: AsRef<Path>>(path: P) -> io::Result<Vec<KeyBinding>> {
     let content = fs::read_to_string(path)?;
-    let bindings = content.lines().filter_map(|l| parse_line(l)).collect();
+    let bindings = content.lines().filter_map(parse_line).collect();
     Ok(bindings)
 }
 

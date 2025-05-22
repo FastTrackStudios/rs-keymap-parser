@@ -2,10 +2,10 @@ use num_enum::{IntoPrimitive, TryFromPrimitive};
 use serde::{Deserialize, Serialize};
 use std::convert::TryFrom;
 
-/// All the “contexts” (sections) that Reaper keymaps can live in,
+/// All the "contexts" (sections) that Reaper keymaps can live in,
 /// with their exact numeric codes.
 #[derive(
-    Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, IntoPrimitive, TryFromPrimitive,
+    Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, Hash, IntoPrimitive, TryFromPrimitive,
 )]
 #[repr(u32)]
 pub enum ReaperActionSection {
@@ -42,6 +42,34 @@ impl ReaperActionSection {
     /// Convert a `Section` back into the raw `u32` code.
     pub fn as_u32(self) -> u32 {
         self.into()
+    }
+
+    /// Get the human-readable display name for comments
+    pub fn display_name(self) -> &'static str {
+        match self {
+            ReaperActionSection::Main => "Main",
+            ReaperActionSection::MainAltRecording => "Main (alt recording)",
+            ReaperActionSection::MainAlt1 => "Main (alt-1)",
+            ReaperActionSection::MainAlt2 => "Main (alt-2)",
+            ReaperActionSection::MainAlt3 => "Main (alt-3)",
+            ReaperActionSection::MainAlt4 => "Main (alt-4)",
+            ReaperActionSection::MainAlt5 => "Main (alt-5)",
+            ReaperActionSection::MainAlt6 => "Main (alt-6)",
+            ReaperActionSection::MainAlt7 => "Main (alt-7)",
+            ReaperActionSection::MainAlt8 => "Main (alt-8)",
+            ReaperActionSection::MainAlt9 => "Main (alt-9)",
+            ReaperActionSection::MainAlt10 => "Main (alt-10)",
+            ReaperActionSection::MainAlt11 => "Main (alt-11)",
+            ReaperActionSection::MainAlt12 => "Main (alt-12)",
+            ReaperActionSection::MainAlt13 => "Main (alt-13)",
+            ReaperActionSection::MainAlt14 => "Main (alt-14)",
+            ReaperActionSection::MainAlt15 => "Main (alt-15)",
+            ReaperActionSection::MainAlt16 => "Main (alt-16)",
+            ReaperActionSection::MidiEditor => "MIDI Editor",
+            ReaperActionSection::MidiEventList => "MIDI Event List", 
+            ReaperActionSection::MidiInline => "MIDI Inline Editor",
+            ReaperActionSection::MediaExplorer => "Media Explorer",
+        }
     }
 }
 

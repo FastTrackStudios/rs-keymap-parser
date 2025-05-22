@@ -187,14 +187,120 @@ pub enum KeyCode {
 }
 
 impl KeyCode {
-    /// Try convert from the raw u8 in a Reaper file.
-    pub fn from_u16(n: u16) -> Option<Self> {
-        Self::try_from(n).ok()
+    /// Get the raw numeric value.
+    pub fn as_u8(self) -> u8 {
+        self as u8
     }
 
-    /// Convert back into the u8 Reaper expects.
-    pub fn as_u8(self) -> u16 {
-        self.into()
+    /// Try to convert from a raw u16 value (with validation).
+    pub fn from_u16(value: u16) -> Option<Self> {
+        if value <= 255 {
+            Self::from_u8(value as u8)
+        } else {
+            None
+        }
+    }
+
+    /// Try to convert from a raw u8 value.
+    pub fn from_u8(value: u8) -> Option<Self> {
+        Self::try_from(value as u16).ok()
+    }
+
+    /// Get human-readable display name for comments
+    pub fn display_name(self) -> &'static str {
+        use KeyCode::*;
+        match self {
+            Backspace => "Backspace",
+            Tab => "Tab",
+            Enter => "Enter",
+            Shift => "Shift",
+            Control => "Control",
+            Alt => "Alt",
+            Pause => "Pause",
+            CapsLock => "CapsLock",
+            Escape => "Escape",
+            Space => "Space",
+            PageUp => "PageUp",
+            PageDown => "PageDown",
+            End => "End",
+            Home => "Home",
+            Left => "Left",
+            Up => "Up",
+            Right => "Right",
+            Down => "Down",
+            Insert => "Insert",
+            Delete => "Delete",
+            Key0 => "0",
+            Key1 => "1",
+            Key2 => "2",
+            Key3 => "3",
+            Key4 => "4",
+            Key5 => "5",
+            Key6 => "6",
+            Key7 => "7",
+            Key8 => "8",
+            Key9 => "9",
+            A => "A",
+            B => "B",
+            C => "C",
+            D => "D",
+            E => "E",
+            F => "F",
+            G => "G",
+            H => "H",
+            I => "I",
+            J => "J",
+            K => "K",
+            L => "L",
+            M => "M",
+            N => "N",
+            O => "O",
+            P => "P",
+            Q => "Q",
+            R => "R",
+            S => "S",
+            T => "T",
+            U => "U",
+            V => "V",
+            W => "W",
+            X => "X",
+            Y => "Y",
+            Z => "Z",
+            Numpad0 => "Numpad0",
+            Numpad1 => "Numpad1",
+            Numpad2 => "Numpad2",
+            Numpad3 => "Numpad3",
+            Numpad4 => "Numpad4",
+            Numpad5 => "Numpad5",
+            Numpad6 => "Numpad6",
+            Numpad7 => "Numpad7",
+            Numpad8 => "Numpad8",
+            Numpad9 => "Numpad9",
+            F1 => "F1",
+            F2 => "F2",
+            F3 => "F3",
+            F4 => "F4",
+            F5 => "F5",
+            F6 => "F6",
+            F7 => "F7",
+            F8 => "F8",
+            F9 => "F9",
+            F10 => "F10",
+            F11 => "F11",
+            F12 => "F12",
+            OEM1 => ";",
+            OEMPlus => "=",
+            OEMComma => ",",
+            OEMMinus => "-",
+            OEMPeriod => ".",
+            OEM2 => "/",
+            OEM3 => "`",
+            OEM4 => "[",
+            OEM5 => "\\",
+            OEM6 => "]",
+            OEM7 => "'",
+            _ => "Unknown",
+        }
     }
 }
 

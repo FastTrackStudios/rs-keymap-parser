@@ -17,3 +17,7 @@ num_enum.workspace = true
 regex.workspace = true
 serde.workspace = true
 serde_json.workspace = true
+
+[dev-dependencies]
+tempfile = "3.0"
+serde_json = "1.0"

@@ -1,0 +1,734 @@
+KEY 255 218 0 0 # Main : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 0 # Main : 7 : DISABLED DEFAULT
+KEY 1 56 0 0 # Main : 8 : DISABLED DEFAULT
+KEY 1 120 0 0 # Main : F9 : DISABLED DEFAULT
+KEY 5 118 0 0 # Main : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 0 # Main : Shift+F9 : DISABLED DEFAULT
+KEY 13 9 0 0 # Main : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 51 0 0 # Main : Shift+3 : DISABLED DEFAULT
+KEY 5 52 0 0 # Main : Shift+4 : DISABLED DEFAULT
+KEY 5 77 6 0 # Main : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 33 70 8 0 # Main : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 17 83 815 0 # Main : Opt+S : OVERRIDE DEFAULT : Track: Toggle solo for last touched track
+KEY 53 83 815 0 # Main : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 0 # Main : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 0 # Main : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 0 # Main : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 0 # Main : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 0 # Main : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 0 # Main : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 0 # Main : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 0 # Main : R : OVERRIDE DEFAULT : Transport: Record
+KEY 255 12520 1013 0 # Main :  : Transport: Record
+KEY 33 32 1013 0 # Main : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 1 67 1068 0 # Main : C : OVERRIDE DEFAULT : Transport: Toggle repeat
+KEY 5 83 1157 0 # Main : Shift+S : OVERRIDE DEFAULT : Options: Toggle snapping
+KEY 9 78 40023 0 # Main : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 0 # Main : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 0 # Main : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 0 # Main : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 0 # Main : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 88 40078 0 # Main : X : OVERRIDE DEFAULT : View: Toggle mixer visible
+KEY 9 77 40171 0 # Main : Cmd+M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 17 88 40201 0 # Main : Opt+X : OVERRIDE DEFAULT : Time selection: Remove contents of time selection (moving later items)
+KEY 5 82 40211 0 # Main : Shift+R : OVERRIDE DEFAULT : MIDI: Insert recent retroactively recorded MIDI for armed and selected tracks
+KEY 9 70 40271 0 # Main : Cmd+F : View: Show FX browser window
+KEY 17 70 40291 0 # Main : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 0 # Main : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 5 78 40306 0 # Main : Shift+N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 0 # Main : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 0 # Main : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 0 # Main : F11 : Toggle fullscreen
+KEY 5 71 40362 0 # Main : Shift+G : OVERRIDE DEFAULT : Item: Glue items, ignoring time selection
+KEY 9 75 40377 0 # Main : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 0 # Main : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 0 # Main : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 0 # Main : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 0 # Main : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 25 76 40435 0 # Main : Cmd+Opt+L : OVERRIDE DEFAULT : Options: Show all takes (when room)
+KEY 1 49 40454 0 # Main : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 0 # Main : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 0 # Main : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 0 # Main : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 0 # Main : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 0 # Main : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 0 # Main : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 0 # Main : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 0 # Main : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 0 # Main : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 0 # Main : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 0 # Main : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 0 # Main : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 0 # Main : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 0 # Main : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 0 # Main : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 13 69 40617 0 # Main : Cmd+Shift+E : Markers: Delete time signature marker near cursor
+KEY 1 27 40635 0 # Main : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 86 40693 0 # Main : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 0 # Main : Control+P : Take: Toggle take pan envelope
+KEY 1 8 40697 0 # Main : Backspace : OVERRIDE DEFAULT : Remove items/tracks/envelope points (depending on focus)
+KEY 17 90 40706 0 # Main : Opt+Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 37 65 40738 0 # Main : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 0 # Main : Shift+Control+S : Options: Solo in front
+KEY 1 85 40760 0 # Main : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 0 # Main : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 0 # Main : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 9 69 40847 0 # Main : Cmd+E : OVERRIDE DEFAULT : Item: Open item inline editors
+KEY 5 72 40853 0 # Main : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 77 40906 0 # Main : Cmd+Shift+M : OVERRIDE DEFAULT : View: Show track manager window
+KEY 13 78 41067 0 # Main : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 13 87 41160 0 # Main : Cmd+Shift+W : Automation: Write current values for all writing envelopes to time selection
+KEY 33 87 41160 0 # Main : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 17 69 41307 0 # Main : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 41 76 41314 0 # Main : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 0 # Main : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 0 # Main : Shift+Control+Tab : Docker: Activate previous tab
+KEY 1 111 41743 0 # Main : NumPad / : Control surface: Refresh all surfaces
+KEY 5 86 41748 0 # Main : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 0 # Main : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 29 76 42430 0 # Main : Cmd+Opt+Shift+L : Track properties: Toggle fixed item lanes
+KEY 1 83 42577 0 # Main : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 0 # Main : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 0 # Main : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 1 107 42680 0 # Main : NumPad + : OVERRIDE DEFAULT : Item: Up-rank active take or last recording pass
+KEY 1 109 42681 0 # Main : NumPad - : OVERRIDE DEFAULT : Item: Down-rank active take or last recording pass
+KEY 13 68 42785 0 # Main : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 5 80 50122 0 # Main : Shift+P : Video: Fullscreen
+KEY 1 73 50124 0 # Main : I : Media explorer: Show/hide media explorer
+KEY 25 88 50124 0 # Main : Cmd+Opt+X : OVERRIDE DEFAULT : Media explorer: Show/hide media explorer
+KEY 5 77 6 100 # Main (alt recording) : Shift+M : Track: Toggle mute for selected tracks
+KEY 5 83 7 100 # Main (alt recording) : Shift+S : Track: Toggle solo for selected tracks
+KEY 33 70 8 100 # Main (alt recording) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 100 # Main (alt recording) : Shift+R : Track: Toggle record arm for selected tracks
+KEY 53 83 815 100 # Main (alt recording) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 100 # Main (alt recording) : Cmd+Shift+Mousewheel : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 100 # Main (alt recording) : Shift+HorizWheel : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 100 # Main (alt recording) : Shift+Mousewheel : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 100 # Main (alt recording) : HorizWheel : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 100 # Main (alt recording) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 100 # Main (alt recording) : Mousewheel : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 100 # Main (alt recording) : Opt+Mousewheel : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 100 # Main (alt recording) : R : Transport: Record
+KEY 33 32 1013 100 # Main (alt recording) : Control+Space : Transport: Record
+KEY 9 78 40023 100 # Main (alt recording) : Cmd+N : File: New project
+KEY 9 71 40032 100 # Main (alt recording) : Cmd+G : Item grouping: Group items
+KEY 9 85 40033 100 # Main (alt recording) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 100 # Main (alt recording) : Return : Transport: Go to start of project
+KEY 1 32 40044 100 # Main (alt recording) : Space : Transport: Play/stop
+KEY 25 68 40062 100 # Main (alt recording) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 17 32 40073 100 # Main (alt recording) : Opt+Space : Transport: Play/pause
+KEY 1 77 40171 100 # Main (alt recording) : M : Markers: Insert and/or edit marker at current position
+KEY 17 70 40291 100 # Main (alt recording) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 100 # Main (alt recording) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 100 # Main (alt recording) : N : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 100 # Main (alt recording) : Cmd+Shift+G : View: Show track group manager window
+KEY 61 88 40344 100 # Main (alt recording) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 100 # Main (alt recording) : F11 : Toggle fullscreen
+KEY 9 75 40377 100 # Main (alt recording) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 100 # Main (alt recording) : Opt+B : View: Show virtual MIDI keyboard
+KEY 1 86 40406 100 # Main (alt recording) : V : Track: Toggle track volume envelope visible
+KEY 1 80 40407 100 # Main (alt recording) : P : Track: Toggle track pan envelope visible
+KEY 25 69 40422 100 # Main (alt recording) : Cmd+Opt+E : View: Show screensets/layouts window
+KEY 1 49 40454 100 # Main (alt recording) : 1 : Screenset: Load window set #01
+KEY 1 50 40455 100 # Main (alt recording) : 2 : Screenset: Load window set #02
+KEY 1 51 40456 100 # Main (alt recording) : 3 : Screenset: Load window set #03
+KEY 1 52 40457 100 # Main (alt recording) : 4 : Screenset: Load window set #04
+KEY 1 53 40458 100 # Main (alt recording) : 5 : Screenset: Load window set #05
+KEY 1 54 40459 100 # Main (alt recording) : 6 : Screenset: Load window set #06
+KEY 1 57 40462 100 # Main (alt recording) : 9 : Screenset: Load window set #09
+KEY 1 48 40463 100 # Main (alt recording) : 0 : Screenset: Load window set #10
+KEY 5 53 40478 100 # Main (alt recording) : Shift+5 : Screenset: Save window set #05
+KEY 5 54 40479 100 # Main (alt recording) : Shift+6 : Screenset: Save window set #06
+KEY 5 57 40482 100 # Main (alt recording) : Shift+9 : Screenset: Save window set #09
+KEY 5 48 40483 100 # Main (alt recording) : Shift+0 : Screenset: Save window set #10
+KEY 5 73 40495 100 # Main (alt recording) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 100 # Main (alt recording) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 100 # Main (alt recording) : F : Item: Fade items in to cursor
+KEY 1 71 40510 100 # Main (alt recording) : G : Item: Fade items out from cursor
+KEY 1 27 40668 100 # Main (alt recording) : ESC : Transport: Stop (DELETE all recorded media)
+KEY 33 86 40693 100 # Main (alt recording) : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 100 # Main (alt recording) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 100 # Main (alt recording) : Cmd+R : Track: Rename last touched track
+KEY 1 90 40706 100 # Main (alt recording) : Z : Item: Set to one random color
+KEY 9 69 40716 100 # Main (alt recording) : Cmd+E : View: Toggle show MIDI editor windows
+KEY 5 65 40736 100 # Main (alt recording) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 100 # Main (alt recording) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 100 # Main (alt recording) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 100 # Main (alt recording) : X : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 100 # Main (alt recording) : U : Edit: Dynamic split items...
+KEY 37 71 40771 100 # Main (alt recording) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 100 # Main (alt recording) : W : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 100 # Main (alt recording) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 100 # Main (alt recording) : Cmd+Shift+N : Track: Insert multiple new tracks...
+KEY 33 87 41160 100 # Main (alt recording) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 100 # Main (alt recording) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 100 # Main (alt recording) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 100 # Main (alt recording) : D : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 100 # Main (alt recording) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 100 # Main (alt recording) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 100 # Main (alt recording) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 100 # Main (alt recording) : Shift+V : Item: Insert time on tracks and paste items
+KEY 57 76 42336 100 # Main (alt recording) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 100 # Main (alt recording) : S : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 100 # Main (alt recording) : T : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 100 # Main (alt recording) : Cmd+L : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 100 # Main (alt recording) : Cmd+Shift+D : Track: Move tracks to new folder
+KEY 1 116 0 1 # Main (alt-1) : F5 : DISABLED DEFAULT
+KEY 255 251 0 1 # Main (alt-1) : Cmd+Opt+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 1 # Main (alt-1) : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 1 # Main (alt-1) : 7 : DISABLED DEFAULT
+KEY 1 56 0 1 # Main (alt-1) : 8 : DISABLED DEFAULT
+KEY 1 120 0 1 # Main (alt-1) : F9 : DISABLED DEFAULT
+KEY 5 118 0 1 # Main (alt-1) : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 1 # Main (alt-1) : Shift+F9 : DISABLED DEFAULT
+KEY 5 71 0 1 # Main (alt-1) : Shift+G : DISABLED DEFAULT
+KEY 13 9 0 1 # Main (alt-1) : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 77 6 1 # Main (alt-1) : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 5 83 7 1 # Main (alt-1) : Shift+S : OVERRIDE DEFAULT : Track: Toggle solo for selected tracks
+KEY 33 70 8 1 # Main (alt-1) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 1 # Main (alt-1) : Shift+R : OVERRIDE DEFAULT : Track: Toggle record arm for selected tracks
+KEY 53 83 815 1 # Main (alt-1) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 1 # Main (alt-1) : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 1 # Main (alt-1) : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 1 # Main (alt-1) : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 1 # Main (alt-1) : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 1 # Main (alt-1) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 1 # Main (alt-1) : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 1 # Main (alt-1) : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 1 # Main (alt-1) : R : OVERRIDE DEFAULT : Transport: Record
+KEY 33 32 1013 1 # Main (alt-1) : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 9 78 40023 1 # Main (alt-1) : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 1 # Main (alt-1) : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 1 # Main (alt-1) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 1 # Main (alt-1) : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 1 # Main (alt-1) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 77 40171 1 # Main (alt-1) : M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 17 70 40291 1 # Main (alt-1) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 1 # Main (alt-1) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 1 # Main (alt-1) : N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 1 # Main (alt-1) : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 1 # Main (alt-1) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 1 # Main (alt-1) : F11 : Toggle fullscreen
+KEY 9 75 40377 1 # Main (alt-1) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 1 # Main (alt-1) : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 1 # Main (alt-1) : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 1 # Main (alt-1) : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 1 # Main (alt-1) : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 1 49 40454 1 # Main (alt-1) : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 1 # Main (alt-1) : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 1 # Main (alt-1) : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 1 # Main (alt-1) : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 1 # Main (alt-1) : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 1 # Main (alt-1) : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 1 # Main (alt-1) : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 1 # Main (alt-1) : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 1 # Main (alt-1) : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 1 # Main (alt-1) : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 1 # Main (alt-1) : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 1 # Main (alt-1) : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 1 # Main (alt-1) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 1 # Main (alt-1) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 1 # Main (alt-1) : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 1 # Main (alt-1) : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 1 27 40635 1 # Main (alt-1) : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 86 40693 1 # Main (alt-1) : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 1 # Main (alt-1) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 1 # Main (alt-1) : Cmd+R : OVERRIDE DEFAULT : Track: Rename last touched track
+KEY 1 90 40706 1 # Main (alt-1) : Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 9 69 40716 1 # Main (alt-1) : Cmd+E : OVERRIDE DEFAULT : View: Toggle show MIDI editor windows
+KEY 5 65 40736 1 # Main (alt-1) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 1 # Main (alt-1) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 1 # Main (alt-1) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 1 # Main (alt-1) : X : OVERRIDE DEFAULT : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 1 # Main (alt-1) : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 1 # Main (alt-1) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 1 # Main (alt-1) : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 1 # Main (alt-1) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 1 # Main (alt-1) : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 33 87 41160 1 # Main (alt-1) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 1 # Main (alt-1) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 1 # Main (alt-1) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 1 # Main (alt-1) : D : OVERRIDE DEFAULT : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 1 # Main (alt-1) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 1 # Main (alt-1) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 1 # Main (alt-1) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 1 # Main (alt-1) : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 1 # Main (alt-1) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 1 # Main (alt-1) : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 1 # Main (alt-1) : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 1 # Main (alt-1) : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 1 # Main (alt-1) : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 255 251 0 2 # Main (alt-2) : Cmd+Opt+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 2 # Main (alt-2) : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 2 # Main (alt-2) : 7 : DISABLED DEFAULT
+KEY 1 56 0 2 # Main (alt-2) : 8 : DISABLED DEFAULT
+KEY 1 120 0 2 # Main (alt-2) : F9 : DISABLED DEFAULT
+KEY 5 118 0 2 # Main (alt-2) : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 2 # Main (alt-2) : Shift+F9 : DISABLED DEFAULT
+KEY 5 71 0 2 # Main (alt-2) : Shift+G : DISABLED DEFAULT
+KEY 13 9 0 2 # Main (alt-2) : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 77 6 2 # Main (alt-2) : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 5 83 7 2 # Main (alt-2) : Shift+S : OVERRIDE DEFAULT : Track: Toggle solo for selected tracks
+KEY 33 70 8 2 # Main (alt-2) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 2 # Main (alt-2) : Shift+R : OVERRIDE DEFAULT : Track: Toggle record arm for selected tracks
+KEY 53 83 815 2 # Main (alt-2) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 2 # Main (alt-2) : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 2 # Main (alt-2) : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 2 # Main (alt-2) : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 2 # Main (alt-2) : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 2 # Main (alt-2) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 2 # Main (alt-2) : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 2 # Main (alt-2) : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 2 # Main (alt-2) : R : OVERRIDE DEFAULT : Transport: Record
+KEY 33 32 1013 2 # Main (alt-2) : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 9 78 40023 2 # Main (alt-2) : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 2 # Main (alt-2) : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 2 # Main (alt-2) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 2 # Main (alt-2) : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 2 # Main (alt-2) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 77 40171 2 # Main (alt-2) : M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 13 82 40211 2 # Main (alt-2) : Cmd+Shift+R : MIDI: Insert recent retroactively recorded MIDI for armed and selected tracks
+KEY 17 70 40291 2 # Main (alt-2) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 2 # Main (alt-2) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 2 # Main (alt-2) : N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 2 # Main (alt-2) : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 2 # Main (alt-2) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 2 # Main (alt-2) : F11 : Toggle fullscreen
+KEY 9 75 40377 2 # Main (alt-2) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 2 # Main (alt-2) : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 2 # Main (alt-2) : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 2 # Main (alt-2) : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 2 # Main (alt-2) : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 1 49 40454 2 # Main (alt-2) : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 2 # Main (alt-2) : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 2 # Main (alt-2) : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 2 # Main (alt-2) : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 2 # Main (alt-2) : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 2 # Main (alt-2) : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 2 # Main (alt-2) : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 2 # Main (alt-2) : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 2 # Main (alt-2) : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 2 # Main (alt-2) : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 2 # Main (alt-2) : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 2 # Main (alt-2) : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 2 # Main (alt-2) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 2 # Main (alt-2) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 2 # Main (alt-2) : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 2 # Main (alt-2) : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 1 27 40635 2 # Main (alt-2) : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 86 40693 2 # Main (alt-2) : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 2 # Main (alt-2) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 2 # Main (alt-2) : Cmd+R : OVERRIDE DEFAULT : Track: Rename last touched track
+KEY 1 90 40706 2 # Main (alt-2) : Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 9 69 40716 2 # Main (alt-2) : Cmd+E : OVERRIDE DEFAULT : View: Toggle show MIDI editor windows
+KEY 5 65 40736 2 # Main (alt-2) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 2 # Main (alt-2) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 2 # Main (alt-2) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 2 # Main (alt-2) : X : OVERRIDE DEFAULT : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 2 # Main (alt-2) : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 2 # Main (alt-2) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 2 # Main (alt-2) : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 2 # Main (alt-2) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 2 # Main (alt-2) : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 33 87 41160 2 # Main (alt-2) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 2 # Main (alt-2) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 2 # Main (alt-2) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 2 # Main (alt-2) : D : OVERRIDE DEFAULT : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 2 # Main (alt-2) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 2 # Main (alt-2) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 2 # Main (alt-2) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 2 # Main (alt-2) : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 2 # Main (alt-2) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 2 # Main (alt-2) : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 2 # Main (alt-2) : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 2 # Main (alt-2) : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 2 # Main (alt-2) : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 255 251 0 3 # Main (alt-3) : Cmd+Opt+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 3 # Main (alt-3) : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 3 # Main (alt-3) : 7 : DISABLED DEFAULT
+KEY 1 56 0 3 # Main (alt-3) : 8 : DISABLED DEFAULT
+KEY 1 120 0 3 # Main (alt-3) : F9 : DISABLED DEFAULT
+KEY 5 118 0 3 # Main (alt-3) : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 3 # Main (alt-3) : Shift+F9 : DISABLED DEFAULT
+KEY 5 71 0 3 # Main (alt-3) : Shift+G : DISABLED DEFAULT
+KEY 13 9 0 3 # Main (alt-3) : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 77 6 3 # Main (alt-3) : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 5 83 7 3 # Main (alt-3) : Shift+S : OVERRIDE DEFAULT : Track: Toggle solo for selected tracks
+KEY 33 70 8 3 # Main (alt-3) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 3 # Main (alt-3) : Shift+R : OVERRIDE DEFAULT : Track: Toggle record arm for selected tracks
+KEY 53 83 815 3 # Main (alt-3) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 3 # Main (alt-3) : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 3 # Main (alt-3) : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 3 # Main (alt-3) : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 3 # Main (alt-3) : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 3 # Main (alt-3) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 3 # Main (alt-3) : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 3 # Main (alt-3) : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 3 # Main (alt-3) : R : OVERRIDE DEFAULT : Transport: Record
+KEY 33 32 1013 3 # Main (alt-3) : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 9 78 40023 3 # Main (alt-3) : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 3 # Main (alt-3) : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 3 # Main (alt-3) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 3 # Main (alt-3) : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 3 # Main (alt-3) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 77 40171 3 # Main (alt-3) : M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 17 70 40291 3 # Main (alt-3) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 3 # Main (alt-3) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 3 # Main (alt-3) : N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 3 # Main (alt-3) : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 3 # Main (alt-3) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 3 # Main (alt-3) : F11 : Toggle fullscreen
+KEY 9 75 40377 3 # Main (alt-3) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 3 # Main (alt-3) : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 3 # Main (alt-3) : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 3 # Main (alt-3) : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 3 # Main (alt-3) : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 1 49 40454 3 # Main (alt-3) : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 3 # Main (alt-3) : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 3 # Main (alt-3) : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 3 # Main (alt-3) : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 3 # Main (alt-3) : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 3 # Main (alt-3) : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 3 # Main (alt-3) : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 3 # Main (alt-3) : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 3 # Main (alt-3) : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 3 # Main (alt-3) : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 3 # Main (alt-3) : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 3 # Main (alt-3) : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 3 # Main (alt-3) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 3 # Main (alt-3) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 3 # Main (alt-3) : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 3 # Main (alt-3) : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 1 27 40635 3 # Main (alt-3) : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 80 40694 3 # Main (alt-3) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 3 # Main (alt-3) : Cmd+R : OVERRIDE DEFAULT : Track: Rename last touched track
+KEY 1 90 40706 3 # Main (alt-3) : Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 9 69 40716 3 # Main (alt-3) : Cmd+E : OVERRIDE DEFAULT : View: Toggle show MIDI editor windows
+KEY 5 65 40736 3 # Main (alt-3) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 3 # Main (alt-3) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 3 # Main (alt-3) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 3 # Main (alt-3) : X : OVERRIDE DEFAULT : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 3 # Main (alt-3) : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 3 # Main (alt-3) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 3 # Main (alt-3) : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 3 # Main (alt-3) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 3 # Main (alt-3) : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 33 86 41072 3 # Main (alt-3) : Control+V : Item: Paste items/tracks, creating pooled (ghost) MIDI items and automation items regardless of preferences/Media/MIDI and prefe
+KEY 33 87 41160 3 # Main (alt-3) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 3 # Main (alt-3) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 3 # Main (alt-3) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 3 # Main (alt-3) : D : OVERRIDE DEFAULT : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 3 # Main (alt-3) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 3 # Main (alt-3) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 3 # Main (alt-3) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 3 # Main (alt-3) : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 3 # Main (alt-3) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 3 # Main (alt-3) : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 3 # Main (alt-3) : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 3 # Main (alt-3) : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 3 # Main (alt-3) : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 255 251 0 4 # Main (alt-4) : Cmd+Opt+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 4 # Main (alt-4) : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 4 # Main (alt-4) : 7 : DISABLED DEFAULT
+KEY 1 56 0 4 # Main (alt-4) : 8 : DISABLED DEFAULT
+KEY 1 120 0 4 # Main (alt-4) : F9 : DISABLED DEFAULT
+KEY 5 118 0 4 # Main (alt-4) : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 4 # Main (alt-4) : Shift+F9 : DISABLED DEFAULT
+KEY 5 71 0 4 # Main (alt-4) : Shift+G : DISABLED DEFAULT
+KEY 13 9 0 4 # Main (alt-4) : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 77 6 4 # Main (alt-4) : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 5 83 7 4 # Main (alt-4) : Shift+S : OVERRIDE DEFAULT : Track: Toggle solo for selected tracks
+KEY 33 70 8 4 # Main (alt-4) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 4 # Main (alt-4) : Shift+R : OVERRIDE DEFAULT : Track: Toggle record arm for selected tracks
+KEY 53 83 815 4 # Main (alt-4) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 4 # Main (alt-4) : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 4 # Main (alt-4) : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 4 # Main (alt-4) : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 4 # Main (alt-4) : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 4 # Main (alt-4) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 4 # Main (alt-4) : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 4 # Main (alt-4) : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 4 # Main (alt-4) : R : OVERRIDE DEFAULT : Transport: Record
+KEY 33 32 1013 4 # Main (alt-4) : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 9 78 40023 4 # Main (alt-4) : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 4 # Main (alt-4) : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 4 # Main (alt-4) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 4 # Main (alt-4) : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 4 # Main (alt-4) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 77 40171 4 # Main (alt-4) : M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 17 70 40291 4 # Main (alt-4) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 4 # Main (alt-4) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 4 # Main (alt-4) : N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 4 # Main (alt-4) : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 4 # Main (alt-4) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 4 # Main (alt-4) : F11 : Toggle fullscreen
+KEY 9 75 40377 4 # Main (alt-4) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 4 # Main (alt-4) : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 4 # Main (alt-4) : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 4 # Main (alt-4) : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 4 # Main (alt-4) : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 1 49 40454 4 # Main (alt-4) : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 4 # Main (alt-4) : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 4 # Main (alt-4) : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 4 # Main (alt-4) : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 4 # Main (alt-4) : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 4 # Main (alt-4) : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 4 # Main (alt-4) : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 4 # Main (alt-4) : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 4 # Main (alt-4) : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 4 # Main (alt-4) : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 4 # Main (alt-4) : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 4 # Main (alt-4) : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 4 # Main (alt-4) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 4 # Main (alt-4) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 4 # Main (alt-4) : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 4 # Main (alt-4) : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 1 27 40635 4 # Main (alt-4) : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 86 40693 4 # Main (alt-4) : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 4 # Main (alt-4) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 4 # Main (alt-4) : Cmd+R : OVERRIDE DEFAULT : Track: Rename last touched track
+KEY 1 90 40706 4 # Main (alt-4) : Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 9 69 40716 4 # Main (alt-4) : Cmd+E : OVERRIDE DEFAULT : View: Toggle show MIDI editor windows
+KEY 5 65 40736 4 # Main (alt-4) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 4 # Main (alt-4) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 4 # Main (alt-4) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 4 # Main (alt-4) : X : OVERRIDE DEFAULT : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 4 # Main (alt-4) : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 4 # Main (alt-4) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 4 # Main (alt-4) : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 4 # Main (alt-4) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 4 # Main (alt-4) : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 33 87 41160 4 # Main (alt-4) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 4 # Main (alt-4) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 4 # Main (alt-4) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 4 # Main (alt-4) : D : OVERRIDE DEFAULT : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 4 # Main (alt-4) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 4 # Main (alt-4) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 4 # Main (alt-4) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 4 # Main (alt-4) : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 4 # Main (alt-4) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 4 # Main (alt-4) : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 4 # Main (alt-4) : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 4 # Main (alt-4) : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 4 # Main (alt-4) : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 255 251 0 5 # Main (alt-5) : Cmd+Opt+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 5 # Main (alt-5) : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 5 # Main (alt-5) : 7 : DISABLED DEFAULT
+KEY 1 56 0 5 # Main (alt-5) : 8 : DISABLED DEFAULT
+KEY 1 120 0 5 # Main (alt-5) : F9 : DISABLED DEFAULT
+KEY 5 118 0 5 # Main (alt-5) : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 5 # Main (alt-5) : Shift+F9 : DISABLED DEFAULT
+KEY 5 71 0 5 # Main (alt-5) : Shift+G : DISABLED DEFAULT
+KEY 13 9 0 5 # Main (alt-5) : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 77 6 5 # Main (alt-5) : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 5 83 7 5 # Main (alt-5) : Shift+S : OVERRIDE DEFAULT : Track: Toggle solo for selected tracks
+KEY 33 70 8 5 # Main (alt-5) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 5 # Main (alt-5) : Shift+R : OVERRIDE DEFAULT : Track: Toggle record arm for selected tracks
+KEY 53 83 815 5 # Main (alt-5) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 5 # Main (alt-5) : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 5 # Main (alt-5) : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 5 # Main (alt-5) : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 5 # Main (alt-5) : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 5 # Main (alt-5) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 5 # Main (alt-5) : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 5 # Main (alt-5) : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 5 # Main (alt-5) : R : OVERRIDE DEFAULT : Transport: Record
+KEY 33 32 1013 5 # Main (alt-5) : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 9 78 40023 5 # Main (alt-5) : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 5 # Main (alt-5) : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 5 # Main (alt-5) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 5 # Main (alt-5) : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 5 # Main (alt-5) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 77 40171 5 # Main (alt-5) : M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 17 70 40291 5 # Main (alt-5) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 5 # Main (alt-5) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 5 # Main (alt-5) : N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 5 # Main (alt-5) : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 5 # Main (alt-5) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 5 # Main (alt-5) : F11 : Toggle fullscreen
+KEY 9 75 40377 5 # Main (alt-5) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 5 # Main (alt-5) : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 5 # Main (alt-5) : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 5 # Main (alt-5) : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 5 # Main (alt-5) : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 1 49 40454 5 # Main (alt-5) : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 5 # Main (alt-5) : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 5 # Main (alt-5) : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 5 # Main (alt-5) : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 5 # Main (alt-5) : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 5 # Main (alt-5) : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 5 # Main (alt-5) : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 5 # Main (alt-5) : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 5 # Main (alt-5) : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 5 # Main (alt-5) : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 5 # Main (alt-5) : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 5 # Main (alt-5) : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 5 # Main (alt-5) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 5 # Main (alt-5) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 5 # Main (alt-5) : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 5 # Main (alt-5) : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 1 27 40635 5 # Main (alt-5) : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 86 40693 5 # Main (alt-5) : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 5 # Main (alt-5) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 5 # Main (alt-5) : Cmd+R : OVERRIDE DEFAULT : Track: Rename last touched track
+KEY 1 90 40706 5 # Main (alt-5) : Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 9 69 40716 5 # Main (alt-5) : Cmd+E : OVERRIDE DEFAULT : View: Toggle show MIDI editor windows
+KEY 5 65 40736 5 # Main (alt-5) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 5 # Main (alt-5) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 5 # Main (alt-5) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 5 # Main (alt-5) : X : OVERRIDE DEFAULT : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 5 # Main (alt-5) : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 5 # Main (alt-5) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 5 # Main (alt-5) : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 5 # Main (alt-5) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 5 # Main (alt-5) : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 33 87 41160 5 # Main (alt-5) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 5 # Main (alt-5) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 5 # Main (alt-5) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 5 # Main (alt-5) : D : OVERRIDE DEFAULT : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 5 # Main (alt-5) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 5 # Main (alt-5) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 5 # Main (alt-5) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 5 # Main (alt-5) : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 5 # Main (alt-5) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 5 # Main (alt-5) : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 5 # Main (alt-5) : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 5 # Main (alt-5) : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 5 # Main (alt-5) : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 255 251 0 6 # Main (alt-6) : Cmd+Opt+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 6 # Main (alt-6) : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 55 0 6 # Main (alt-6) : 7 : DISABLED DEFAULT
+KEY 1 56 0 6 # Main (alt-6) : 8 : DISABLED DEFAULT
+KEY 1 120 0 6 # Main (alt-6) : F9 : DISABLED DEFAULT
+KEY 5 118 0 6 # Main (alt-6) : Shift+F7 : DISABLED DEFAULT
+KEY 5 120 0 6 # Main (alt-6) : Shift+F9 : DISABLED DEFAULT
+KEY 5 71 0 6 # Main (alt-6) : Shift+G : DISABLED DEFAULT
+KEY 13 9 0 6 # Main (alt-6) : Cmd+Shift+Tab : DISABLED DEFAULT
+KEY 5 77 6 6 # Main (alt-6) : Shift+M : OVERRIDE DEFAULT : Track: Toggle mute for selected tracks
+KEY 5 83 7 6 # Main (alt-6) : Shift+S : OVERRIDE DEFAULT : Track: Toggle solo for selected tracks
+KEY 33 70 8 6 # Main (alt-6) : Control+F : Track: Toggle FX bypass for selected tracks
+KEY 5 82 9 6 # Main (alt-6) : Shift+R : OVERRIDE DEFAULT : Track: Toggle record arm for selected tracks
+KEY 53 83 815 6 # Main (alt-6) : Opt+Shift+Control+S : Track: Toggle solo for last touched track
+KEY 255 253 972 6 # Main (alt-6) : Cmd+Shift+Mousewheel : OVERRIDE DEFAULT : View: Adjust selected track heights (MIDI CC relative/mousewheel)
+KEY 255 220 977 6 # Main (alt-6) : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 252 977 6 # Main (alt-6) : Shift+Mousewheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 216 977 6 # Main (alt-6) : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI CC relative/mousewheel)
+KEY 255 3540 987 6 # Main (alt-6) : Shift+Control+HorizWheel : Adjust solo in front dim (MIDI CC/mousewheel only)
+KEY 255 248 989 6 # Main (alt-6) : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI CC relative/mousewheel)
+KEY 255 250 990 6 # Main (alt-6) : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI CC relative/mousewheel)
+KEY 1 82 1013 6 # Main (alt-6) : R : OVERRIDE DEFAULT : Transport: Record
+KEY 33 32 1013 6 # Main (alt-6) : Control+Space : OVERRIDE DEFAULT : Transport: Record
+KEY 9 78 40023 6 # Main (alt-6) : Cmd+N : OVERRIDE DEFAULT : File: New project
+KEY 9 71 40032 6 # Main (alt-6) : Cmd+G : OVERRIDE DEFAULT : Item grouping: Group items
+KEY 9 85 40033 6 # Main (alt-6) : Cmd+U : Item grouping: Remove items from group
+KEY 1 13 40042 6 # Main (alt-6) : Return : OVERRIDE DEFAULT : Transport: Go to start of project
+KEY 25 68 40062 6 # Main (alt-6) : Cmd+Opt+D : Track: Duplicate tracks
+KEY 1 77 40171 6 # Main (alt-6) : M : OVERRIDE DEFAULT : Markers: Insert and/or edit marker at current position
+KEY 17 70 40291 6 # Main (alt-6) : Opt+F : Track: View FX chain for current/last touched track
+KEY 17 73 40293 6 # Main (alt-6) : Opt+I : Track: View routing and I/O for current/last touched track
+KEY 1 78 40306 6 # Main (alt-6) : N : OVERRIDE DEFAULT : Markers: Insert region from time selection and edit...
+KEY 13 71 40327 6 # Main (alt-6) : Cmd+Shift+G : OVERRIDE DEFAULT : View: Show track group manager window
+KEY 61 88 40344 6 # Main (alt-6) : Cmd+Opt+Shift+Control+X : Track: Toggle FX bypass on all tracks
+KEY 1 122 40346 6 # Main (alt-6) : F11 : Toggle fullscreen
+KEY 9 75 40377 6 # Main (alt-6) : Cmd+K : View: Show virtual MIDI keyboard
+KEY 17 66 40377 6 # Main (alt-6) : Opt+B : OVERRIDE DEFAULT : View: Show virtual MIDI keyboard
+KEY 1 86 40406 6 # Main (alt-6) : V : OVERRIDE DEFAULT : Track: Toggle track volume envelope visible
+KEY 1 80 40407 6 # Main (alt-6) : P : OVERRIDE DEFAULT : Track: Toggle track pan envelope visible
+KEY 25 69 40422 6 # Main (alt-6) : Cmd+Opt+E : OVERRIDE DEFAULT : View: Show screensets/layouts window
+KEY 1 49 40454 6 # Main (alt-6) : 1 : OVERRIDE DEFAULT : Screenset: Load window set #01
+KEY 1 50 40455 6 # Main (alt-6) : 2 : OVERRIDE DEFAULT : Screenset: Load window set #02
+KEY 1 51 40456 6 # Main (alt-6) : 3 : OVERRIDE DEFAULT : Screenset: Load window set #03
+KEY 1 52 40457 6 # Main (alt-6) : 4 : OVERRIDE DEFAULT : Screenset: Load window set #04
+KEY 1 53 40458 6 # Main (alt-6) : 5 : OVERRIDE DEFAULT : Screenset: Load window set #05
+KEY 1 54 40459 6 # Main (alt-6) : 6 : OVERRIDE DEFAULT : Screenset: Load window set #06
+KEY 1 57 40462 6 # Main (alt-6) : 9 : OVERRIDE DEFAULT : Screenset: Load window set #09
+KEY 1 48 40463 6 # Main (alt-6) : 0 : OVERRIDE DEFAULT : Screenset: Load window set #10
+KEY 5 53 40478 6 # Main (alt-6) : Shift+5 : OVERRIDE DEFAULT : Screenset: Save window set #05
+KEY 5 54 40479 6 # Main (alt-6) : Shift+6 : OVERRIDE DEFAULT : Screenset: Save window set #06
+KEY 5 57 40482 6 # Main (alt-6) : Shift+9 : OVERRIDE DEFAULT : Screenset: Save window set #09
+KEY 5 48 40483 6 # Main (alt-6) : Shift+0 : OVERRIDE DEFAULT : Screenset: Save window set #10
+KEY 5 73 40495 6 # Main (alt-6) : Shift+I : Track: Cycle track record monitor
+KEY 33 66 40508 6 # Main (alt-6) : Control+B : Item: Trim items to selected area
+KEY 1 70 40509 6 # Main (alt-6) : F : OVERRIDE DEFAULT : Item: Fade items in to cursor
+KEY 1 71 40510 6 # Main (alt-6) : G : OVERRIDE DEFAULT : Item: Fade items out from cursor
+KEY 1 27 40635 6 # Main (alt-6) : ESC : OVERRIDE DEFAULT : Time selection: Remove (unselect) time selection
+KEY 33 86 40693 6 # Main (alt-6) : Control+V : Take: Toggle take volume envelope
+KEY 33 80 40694 6 # Main (alt-6) : Control+P : Take: Toggle take pan envelope
+KEY 9 82 40696 6 # Main (alt-6) : Cmd+R : OVERRIDE DEFAULT : Track: Rename last touched track
+KEY 1 90 40706 6 # Main (alt-6) : Z : OVERRIDE DEFAULT : Item: Set to one random color
+KEY 9 69 40716 6 # Main (alt-6) : Cmd+E : OVERRIDE DEFAULT : View: Toggle show MIDI editor windows
+KEY 5 65 40736 6 # Main (alt-6) : Shift+A : Track: Toggle automatic record-arm when track selected
+KEY 37 65 40738 6 # Main (alt-6) : Shift+Control+A : Track: Clear automatic record-arm
+KEY 37 83 40745 6 # Main (alt-6) : Shift+Control+S : Options: Solo in front
+KEY 1 88 40759 6 # Main (alt-6) : X : OVERRIDE DEFAULT : Item: Split items at edit cursor (select right)
+KEY 1 85 40760 6 # Main (alt-6) : U : OVERRIDE DEFAULT : Edit: Dynamic split items...
+KEY 37 71 40771 6 # Main (alt-6) : Shift+Control+G : Track: Toggle all track grouping enabled
+KEY 1 87 40794 6 # Main (alt-6) : W : OVERRIDE DEFAULT : Item edit: Move items/envelope points right by grid size
+KEY 5 72 40853 6 # Main (alt-6) : Shift+H : Track: Toggle show/hide in TCP
+KEY 13 78 41067 6 # Main (alt-6) : Cmd+Shift+N : OVERRIDE DEFAULT : Track: Insert multiple new tracks...
+KEY 33 87 41160 6 # Main (alt-6) : Control+W : Automation: Write current values for all writing envelopes to time selection
+KEY 1 65 41305 6 # Main (alt-6) : A : Item edit: Trim left edge of item to edit cursor
+KEY 17 69 41307 6 # Main (alt-6) : Opt+E : Item edit: Move right edge of item to edit cursor
+KEY 1 68 41311 6 # Main (alt-6) : D : OVERRIDE DEFAULT : Item edit: Trim right edge of item to edit cursor
+KEY 41 76 41314 6 # Main (alt-6) : Cmd+Control+L : Track: Toggle lock/unlock track controls
+KEY 33 78 41612 6 # Main (alt-6) : Control+N : Take: Toggle take pitch envelope
+KEY 37 9 41625 6 # Main (alt-6) : Shift+Control+Tab : Docker: Activate previous tab
+KEY 5 86 41748 6 # Main (alt-6) : Shift+V : OVERRIDE DEFAULT : Item: Insert time on tracks and paste items
+KEY 57 76 42336 6 # Main (alt-6) : Cmd+Opt+Control+L : Track: Lock/unlock track height
+KEY 1 83 42577 6 # Main (alt-6) : S : OVERRIDE DEFAULT : Item: Split item under mouse cursor (select right)
+KEY 1 84 42611 6 # Main (alt-6) : T : OVERRIDE DEFAULT : Move comp area at mouse down, or switch items to next take
+KEY 9 76 42638 6 # Main (alt-6) : Cmd+L : OVERRIDE DEFAULT : Track properties: Toggle show/play only one fixed item lane
+KEY 13 68 42785 6 # Main (alt-6) : Cmd+Shift+D : OVERRIDE DEFAULT : Track: Move tracks to new folder
+KEY 255 252 0 32060 # MIDI Editor : Shift+Mousewheel : DISABLED DEFAULT
+KEY 255 218 0 32060 # MIDI Editor : Opt+HorizWheel : DISABLED DEFAULT
+KEY 1 82 0 32060 # MIDI Editor : R : DISABLED DEFAULT
+KEY 255 735 998 32060 # MIDI Editor : Cmd+Opt+Shift+HorizWheel : Edit: Move events left/right (mousewheel/MIDI relative only)
+KEY 1 87 1000 32060 # MIDI Editor : W : OVERRIDE DEFAULT : Edit: Insert note at edit cursor (no advance edit cursor)
+KEY 1 67 1139 32060 # MIDI Editor : C : Transport: Toggle repeat
+KEY 1 65 40001 32060 # MIDI Editor : A : Edit: Insert note at mouse cursor
+KEY 17 81 40009 32060 # MIDI Editor : Opt+Q : Quantize...
+KEY 9 67 40010 32060 # MIDI Editor : Cmd+C : OVERRIDE DEFAULT : Edit: Copy
+KEY 9 86 40011 32060 # MIDI Editor : Cmd+V : OVERRIDE DEFAULT : Edit: Paste
+KEY 1 88 40012 32060 # MIDI Editor : X : Edit: Cut
+KEY 9 88 40012 32060 # MIDI Editor : Cmd+X : OVERRIDE DEFAULT : Edit: Cut
+KEY 5 49 40020 32060 # MIDI Editor : Shift+1 : OVERRIDE DEFAULT : Edit: Set events to channel 01
+KEY 5 50 40021 32060 # MIDI Editor : Shift+2 : OVERRIDE DEFAULT : Edit: Set events to channel 02
+KEY 5 51 40022 32060 # MIDI Editor : Shift+3 : OVERRIDE DEFAULT : Edit: Set events to channel 03
+KEY 5 52 40023 32060 # MIDI Editor : Shift+4 : OVERRIDE DEFAULT : Edit: Set events to channel 04
+KEY 5 53 40024 32060 # MIDI Editor : Shift+5 : OVERRIDE DEFAULT : Edit: Set events to channel 05
+KEY 5 54 40025 32060 # MIDI Editor : Shift+6 : OVERRIDE DEFAULT : Edit: Set events to channel 06
+KEY 5 55 40026 32060 # MIDI Editor : Shift+7 : OVERRIDE DEFAULT : Edit: Set events to channel 07
+KEY 5 56 40027 32060 # MIDI Editor : Shift+8 : OVERRIDE DEFAULT : Edit: Set events to channel 08
+KEY 5 57 40028 32060 # MIDI Editor : Shift+9 : OVERRIDE DEFAULT : Edit: Set events to channel 09
+KEY 5 48 40029 32060 # MIDI Editor : Shift+0 : OVERRIDE DEFAULT : Edit: Set events to channel 10
+KEY 1 13 40036 32060 # MIDI Editor : Return : View: Go to start of file
+KEY 9 104 40049 32060 # MIDI Editor : Cmd+NumPad 8 : OVERRIDE DEFAULT : Edit: Increase pitch cursor one semitone
+KEY 9 98 40050 32060 # MIDI Editor : Cmd+NumPad 2 : OVERRIDE DEFAULT : Edit: Decrease pitch cursor one semitone
+KEY 17 104 40179 32060 # MIDI Editor : Opt+NumPad 8 : OVERRIDE DEFAULT : Edit: Move notes up one octave
+KEY 17 98 40180 32060 # MIDI Editor : Opt+NumPad 2 : OVERRIDE DEFAULT : Edit: Move notes down one octave
+KEY 17 100 40181 32060 # MIDI Editor : Opt+NumPad 4 : OVERRIDE DEFAULT : Edit: Move notes left one pixel
+KEY 17 102 40182 32060 # MIDI Editor : Opt+NumPad 6 : OVERRIDE DEFAULT : Edit: Move notes right one pixel
+KEY 1 106 40401 32060 # MIDI Editor : NumPad * : Misc: Pass through key to main window
+KEY 255 456 40431 32060 # MIDI Editor : MultiZoom : View: Zoom horizontally (MIDI relative/mousewheel)
+KEY 255 250 40431 32060 # MIDI Editor : Opt+Mousewheel : OVERRIDE DEFAULT : View: Zoom horizontally (MIDI relative/mousewheel)
+KEY 255 248 40432 32060 # MIDI Editor : Mousewheel : OVERRIDE DEFAULT : View: Scroll vertically (MIDI relative/mousewheel)
+KEY 9 71 40456 32060 # MIDI Editor : Cmd+G : Edit: Join notes
+KEY 1 74 40456 32060 # MIDI Editor : J : OVERRIDE DEFAULT : Edit: Join notes
+KEY 1 90 40466 32060 # MIDI Editor : Z : View: Zoom to content
+KEY 9 85 40641 32060 # MIDI Editor : Cmd+U : Split notes on grid
+KEY 255 220 40660 32060 # MIDI Editor : Shift+HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI relative/mousewheel)
+KEY 255 216 40660 32060 # MIDI Editor : HorizWheel : OVERRIDE DEFAULT : View: Scroll horizontally reversed (MIDI relative/mousewheel)
+KEY 1 8 40667 32060 # MIDI Editor : Backspace : OVERRIDE DEFAULT : Edit: Delete events
+KEY 1 81 40728 32060 # MIDI Editor : Q : OVERRIDE DEFAULT : Quantize events to grid
+KEY 9 81 40729 32060 # MIDI Editor : Cmd+Q : Quantize notes position and end to grid
+KEY 5 65 40746 32060 # MIDI Editor : Shift+A : Edit: Select all notes in time selection
+KEY 1 69 40794 32060 # MIDI Editor : E : View: Toggle show MIDI editor windows
+KEY 1 9 40835 32060 # MIDI Editor : Tab : Activate next MIDI track
+KEY 5 9 40836 32060 # MIDI Editor : Shift+Tab : Activate previous MIDI track
+KEY 13 68 40886 32060 # MIDI Editor : Cmd+Shift+D : OVERRIDE DEFAULT : Edit: Duplicate events within time selection, if any (smart duplicate)
+KEY 1 69 0 32062 # MIDI Inline Editor : E : DISABLED DEFAULT
+KEY 9 69 2 32062 # MIDI Inline Editor : Cmd+E : Close inline editor
+KEY 17 81 40009 32062 # MIDI Inline Editor : Opt+Q : Quantize...
+KEY 1 8 40667 32062 # MIDI Inline Editor : Backspace : OVERRIDE DEFAULT : Edit: Delete events
+KEY 1 81 40728 32062 # MIDI Inline Editor : Q : OVERRIDE DEFAULT : Quantize events to grid
+KEY 9 81 40729 32062 # MIDI Inline Editor : Cmd+Q : Quantize note positions and ends to grid
